@@ -1,4 +1,5 @@
 import sqlite3
+import os
 
 main = sqlite3.connect('../main.db')
 cursor = main.cursor()
@@ -12,3 +13,5 @@ except sqlite3.OperationalError:
 cursor.close()
 main.commit()
 main.close()
+os.system('cd ../forge-1.17.1-37.0.109-mdk')
+os.system('./gradlew setupDecompWorkspace')
