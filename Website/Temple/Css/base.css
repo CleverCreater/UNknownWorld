@@ -1,0 +1,18 @@
+h1{
+    text-align:center;
+    color:purple
+}
+p{
+    text-align:center;
+    padding:25px;
+}
+html{
+    background-image:url('../Image/moon.jpeg')
+}
+button{
+    background:yellow
+}
+a{
+    background:grey
+    color:white
+}
